@@ -1,0 +1,258 @@
+.fornt-inter{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+nav {
+    width: 71%px;
+    max-width: 1600px;
+    height: 92px;
+     /* border: 2px solid rgb(138, 227, 5);  */
+  
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 16px 120px 16px 120px;
+    
+   
+}
+header{
+    background:url(../B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    width:2024px ;
+    max-width: 1600px;
+    height: 678px;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    
+gap: 32px;
+align-items: center;
+font-size: 16px;
+line-height: 152%;
+color: #000000;
+   
+}
+.btn{
+
+    background-color:#469165;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+#knowledge{
+   margin: 115px 120px 180px 120px;
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+    
+    
+}
+.knowledge-info{
+  
+    /* border: 2px solid tomato; */
+    width: 1360px;
+    height: 379px;
+   
+} 
+.knowledge-banner h1{
+    font-size: 72px;
+ ;
+}
+.white{
+    color: #FFFFFF;
+}
+.green{
+    color:#30B868;
+}
+.knowledge-banner p{
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+
+}
+.knowledge-banner h4{
+    color:#469165 ;
+    background-color:#FFFFFF ;
+    margin-left: 565px;
+
+    margin-right: 565px;
+    margin-bottom: 16px;
+    border-radius:20px ;
+    font-size: 16px;
+    
+    
+}
+.button{
+   background-color: transparent;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+    margin-left: 16px;
+}
+#skills {
+    padding-top: 130px;
+
+}
+.skills-contayner{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: -70px;
+    margin-bottom: 16px;
+    
+
+}
+.skill-box{
+    display: flex;
+    gap: 24px;
+}
+.skill-card{
+    padding: 30px;
+    /* border: 2px solid tomato; */
+    max-width: 267px;
+    box-shadow: 0 0 8px 0 #000000;
+}
+
+
+.skill-card h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+}
+.skill-card p{
+    font-size: 16px;
+    line-height: 28px;
+    
+}
+.section-heading p{
+    margin-bottom: 44px;
+    margin-top: 16px;
+    font-size: 16px;
+}
+.section-heading h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.skill-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+#banner{
+     border: 2px solid red;  
+
+    max-width: 1600px;
+    height: 840px;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+  
+}
+.banner-contain{
+    margin:102px 0 102px 64px ;
+
+  border: 2px solid red;  
+
+    
+}
+.up{
+    font-size: 16px;
+   color: aqua;
+    line-height: 20px;
+}
+.banner-contain h1{
+    font-size: 48px;
+    color: #001931;
+}
+.banner-contain p{
+    color: #627382;
+}
+.banner-contain h5{
+    
+color: #001931;}
+
+#about{
+    padding-top: 130px;
+
+}
+#about .about-section{
+    width: 71%;
+    max-width: 1140px;
+   margin:  0 auto;
+   text-align: center;
+   background-color: #F7F6F2;
+   padding: 131px 156px;
+}
+.about-info{
+    display:flex ;
+    justify-content: space-around;
+}
+  .about-info .about-card p{
+    line-height: 30px;
+    font-size: 20px;
+    color: #757575;
+}
+.about-card h4{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+footer{
+    margin-top: 130px;
+    background-color: #001931;
+    padding: 120px;
+    height: 348px;
+    
+}
+.footer-containar{
+    width: 71%;
+    max-width: 1140px;
+    margin:  0 auto;
+   
+    
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-containar h2{
+    color: red;
+    font-size: 35px;
+    margin-bottom: 20px;
+
+}
+.social p{
+    color: #474747;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+
+}
+.icons a{
+    margin-right: 24px;
+
+}
