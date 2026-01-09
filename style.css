@@ -21,7 +21,14 @@ nav {
     background-color: #FFFFFF;
     padding: 16px 120px 16px 120px;
     
+    
    
+}
+.menu a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 152%;
+    color:#000000;
 }
 header{
     background:url(../B13-A01-Knowledge-Vault/assets/hero-bg.png);
@@ -41,7 +48,8 @@ color: #000000;
    
 }
 .btn{
-
+     width: 251px;
+     height: 52px;
     background-color:#469165;
     border: none;
     padding: 12px 16px;
@@ -134,6 +142,7 @@ color: #000000;
     /* border: 2px solid tomato; */
     max-width: 267px;
     box-shadow: 0 0 8px 0 #000000;
+    margin-bottom: 20px;
 }
 
 
@@ -147,6 +156,7 @@ color: #000000;
     line-height: 28px;
     
 }
+
 .section-heading p{
     margin-bottom: 44px;
     margin-top: 16px;
@@ -156,12 +166,18 @@ color: #000000;
     font-size: 48px;
     font-weight: bold;
 }
+.bottem{
+    margin-top: 16px;
+}
 .skill-card img{
     max-width: 44px;
     margin-bottom: 30px;
+    background-color:#F95555;
+    padding: 10px;
+    border-radius: 60px;
 }
 #banner{
-     border: 2px solid red;  
+     /* border: 2px solid red;   */
 
     max-width: 1600px;
     height: 840px;
@@ -174,28 +190,35 @@ color: #000000;
 .banner-contain{
     margin:102px 0 102px 64px ;
 
-  border: 2px solid red;  
+  /* border: 2px solid red;   */
 
     
 }
 .up{
     font-size: 16px;
-   color: aqua;
+   
     line-height: 20px;
 }
 .banner-contain h1{
     font-size: 48px;
     color: #001931;
+    margin-bottom: 16px;
 }
 .banner-contain p{
     color: #627382;
+    margin-bottom:40px ;
+    
 }
 .banner-contain h5{
+    margin-bottom: 16px;
     
-color: #001931;}
-
+color: 16px
+}
+.banner-contain h4{
+    color: #469165;
+}
 #about{
-    padding-top: 130px;
+    
 
 }
 #about .about-section{
@@ -240,19 +263,31 @@ footer{
     justify-content: space-between;
 }
 .footer-containar h2{
-    color: red;
-    font-size: 35px;
+    font-size: 20px;
     margin-bottom: 20px;
 
 }
-.social p{
-    color: #474747;
-    font-size: 16px;
-    line-height: 28px;
-    margin-bottom: 30px;
-
+.social h2{
+    color: #FFFFFF;
 }
 .icons a{
-    margin-right: 24px;
-
+    color: #FFFFFF;
+    gap: 16px;
 }
+.last{
+    color: #FAFAFA;
+    /* border: 2px solid tomato; */
+    margin: 100px 120px 30px 120px;
+    text-align: center;
+    
+   
+     
+}
+.footer-containar hr{
+     margin: 30px 0;
+     color: #E5E7EB;
+    
+     
+}
+
+
