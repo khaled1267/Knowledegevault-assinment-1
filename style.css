@@ -58,6 +58,11 @@ color: #000000;
     font-weight: bold;
     color: white;
     cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: blue;
+
 }
 #knowledge{
    margin: 115px 120px 180px 120px;
